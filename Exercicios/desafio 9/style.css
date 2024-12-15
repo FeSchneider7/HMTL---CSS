@@ -1,0 +1,49 @@
+/* Estilo para o body para um visual clean */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    text-align: center;
+}
+
+/* Estilo do título */
+h1 {
+    color: #4a90e2;
+    margin-bottom: 20px;
+}
+
+/* Estilo para as imagens dos vídeos */
+a img {
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+/* Efeito ao passar o mouse */
+a img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Separador entre vídeos */
+hr {
+    border: none;
+    height: 2px;
+    background-color: #ffb74d;
+    width: 50%;
+    margin: 30px auto;
+}
+
+/* Fundo colorido e arredondado para os vídeos */
+a {
+    display: inline-block;
+    background-color: #ffeb3b; /* Amarelo vibrante */
+    padding: 15px;
+    border-radius: 30px;
+    margin: 20px 0;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #fdd835; /* Tom mais escuro de amarelo */
+}

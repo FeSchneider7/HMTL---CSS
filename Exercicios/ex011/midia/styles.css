@@ -1,0 +1,63 @@
+/* Estilo geral */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Container principal */
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #aac3d8; /* Azul claro */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Título */
+h1 {
+    color: #004e81; /* Azul mais escuro */
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+/* Parágrafo */
+p {
+    color: #555;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+/* Container de vídeo */
+.video-container {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(170, 195, 216, 0.8); /* Fundo azul claro semi-transparente */
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo do vídeo e iframe */
+.video-container video,
+.video-container iframe {
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    outline: none;
+    width: 100%; /* Para preencher o container de forma responsiva */
+    max-width: 600px;
+}
+
+/* Estilos do botão de controle do vídeo */
+video::-webkit-media-controls-play-button,
+video::-webkit-media-controls-pause-button {
+    background-color: #007acc; /* Azul */
+    border-radius: 50%;
+}
+
+video::-webkit-media-controls-panel {
+    background-color: rgba(0, 122, 204, 0.1); /* Fundo semi-transparente */
+}

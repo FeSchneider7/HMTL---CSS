@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinamica</h1>
+    <p>Tente abrir esse site em varios dispositivos diferentes ou simplismente aumente e diminua o tamanho do seu navegador</p>
+       
+       <picture>
+       <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+       <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="Imagens/foto-g.png" alt="Imagem flexível">
+    </picture>
+
+    <h1>reproduzindo Audio e Video</h1>
+    <p>Vamos aprender a reproduzir Audio no HMTL5</p>    
+    
+
+    <p>Clique em "AQUI" para reproduzir a musica caso nao funciona</p>
+    <audio src="midia/Sands of serenity.mp3" controls>  
+    </audio>
+    <p><a href="midia/Sands of serenity.mp3">AQUI para a musica acima</a></p>
+
+    <audio src="midia/fart.mp3" controls></audio>
+
+    <audio>
+        <source src="midia/fart.mp3" type="audio/mpeg">
+       
+    </audio>
+    <p><a href="midia/fart.mp3">AQUI para a musica acima</a> </p>
+
+    <h1>Inserindo Video do Youtube</h1>
+    
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/r9-Hd_vuHV4?si=AaRr7zkcW_ttqmFO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+</body>
+</html>
